@@ -79,11 +79,11 @@ const useChartOptions = () => {
         "Ravza taʼlim",
         "Orzu",
         "LSL",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
+        "Algaritm",
+        "Yuksak",
+        "UITC",
+        "Inlab",
+        "Invest",
       ],
       labels: {
         offsetY: 5,
@@ -110,24 +110,15 @@ export const OverviewSales = (props) => {
 
   return (
     <Card sx={sx}>
-      <CardHeader title="Diyagrama" />
+      <CardHeader
+        title="Oliy taʼlimga kirgani
+Outsiderlar uchun imtixon natijasi
+Talabalar"
+      />
       <CardContent>
         <Chart height={350} options={chartOptions} series={chartSeries} type="bar" width="100%" />
       </CardContent>
       <Divider />
-      <CardActions sx={{ justifyContent: "flex-end" }}>
-        <Button
-          color="inherit"
-          endIcon={
-            <SvgIcon fontSize="small">
-              <ArrowRightIcon />
-            </SvgIcon>
-          }
-          size="small"
-        >
-          Overview
-        </Button>
-      </CardActions>
     </Card>
   );
 };

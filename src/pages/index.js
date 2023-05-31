@@ -62,7 +62,7 @@ const Page = () => (
           <Grid xs={12} md={6} lg={4}>
             <OverviewTraffic
               chartSeries={[63, 15, 22]}
-              labels={["Desktop", "Tablet", "Phone"]}
+              labels={["Kirgani", "Imtixondan o'tkani", "O'quvchilar"]}
               sx={{ height: "100%" }}
             />
           </Grid>

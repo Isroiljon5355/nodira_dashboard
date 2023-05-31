@@ -21,7 +21,7 @@ export const OverviewTasksProgress = (props) => {
         <Stack alignItems="flex-start" direction="row" justifyContent="space-between" spacing={3}>
           <Stack spacing={1}>
             <Typography color="text.secondary" gutterBottom variant="overline">
-              Bir yilik natija
+              Bir yillik natija
             </Typography>
             <Typography variant="h4">{value}%</Typography>
           </Stack>
